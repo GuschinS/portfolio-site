@@ -241,7 +241,7 @@
 
 @media screen and (max-width: 549px) {
 	section.img {
-		background: url(/img/code-550.jpg) center no-repeat;
+		background: url(../img/code-550.jpg) center no-repeat;
 		height: 200px;
 	}
 	.logo img {
@@ -264,7 +264,7 @@
 
 @media screen and (min-width: 550px) and (max-width: 769px) {
 	section.img {
-		background: url(/img/code-770.jpg) center no-repeat;
+		background: url(../img/code-770.jpg) center no-repeat;
 		height: 200px;
 	}
 	.li-job {
