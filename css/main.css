@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main,
+header {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.job,
+.heading-job {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 2px solid #7d97ad;
+}
+
+.logo img {
+	width: 15%;
+	height: 15%;
+	margin: 2% 0;
+}
+
+.text {
+	width: 84%;
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 1%;
+}
+
+.text h1 {
+	font-weight: 300;
+	font-size: 2.5em;
+	margin: 5% auto 2%;
+}
+
+.text h3 {
+	margin: 2% auto;
+}
+
+section.img {
+	background: url(/img/code-1200.jpg) center no-repeat;
+	height: 200px;
+	margin-top: 1%;
+}
+
+.heading-job h1 {
+	color: #7d97ad;
+	margin: 1%;
+
+}
+
+.ul-job {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.li-job {
+	width: 30%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.icon {
+	width: 100%;
+}
+
+.link-job {
+	text-decoration: none;
+	color: #2d3c49;
+	text-align: center;
+}
+
+.link-job h1 {
+	margin: 1%;
+	text-transform: uppercase;
+}
+
+.link-job p {
+	margin: 1%;
+}
+
+img.icon:hover {
+	background: black;
+	opacity: 0.5;
+}
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+/*	margin-top: 5%;*/
+	background-color: #2d3c49;
+	width: 100%;
+	height: 4rem;
+}
